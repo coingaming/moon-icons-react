@@ -21,6 +21,9 @@ This repository houses **SVG icons** you might need to build an application.
    ```sh
    pnpm run build
    ```
+**Note:** To update the icons directly from Figma, please set the proper environment variables:<br />
+FIGMA_TOKEN - Personal access tokens allow you to access your own data via the Figma API.<br />
+FIGMA_FILE_ID - The file ID is the string of random alphanumeric characters found in the section of the URL after *figma.com/file/*.
 
 ## Consuming
 
