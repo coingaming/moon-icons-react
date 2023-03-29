@@ -1,0 +1,3 @@
+import React from 'react';
+const ChartBarVertical = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M6.50006 7.5L11.3719 7.5M6.50003 11.8846H16.2436M6.50006 20.6538H16.2436M6.5 24.5H25.5M6.50005 16.2692H21.1154" stroke="black" strokeLinecap="round" strokeLinejoin="round" /></svg>;
+export default ChartBarVertical;

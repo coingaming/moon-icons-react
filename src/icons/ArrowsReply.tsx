@@ -1,0 +1,3 @@
+import React from 'react';
+const ArrowsReply = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M15.9231 7L9 13.9231L15.9231 20.8462M9.38462 13.9231H18.3846C21.4434 13.9231 23.9231 16.4027 23.9231 19.4615V25" stroke="black" strokeLinecap="round" strokeLinejoin="round" /></svg>;
+export default ArrowsReply;
