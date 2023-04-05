@@ -1,0 +1,3 @@
+import React from 'react';
+const TextDecreaseIndent = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M6.5 25H25.5M15.2692 19H25.5M6.5 7H25.5M15.2692 13H25.5M11.6154 13L8.69232 16L11.6154 19" stroke="black" strokeLinecap="round" strokeLinejoin="round" /></svg>;
+export default TextDecreaseIndent;

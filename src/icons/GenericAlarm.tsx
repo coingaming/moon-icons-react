@@ -1,0 +1,3 @@
+import React from 'react';
+const GenericAlarm = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M16 21V21.7M16 13.3V18.55M23.1516 25.2H8.84843C7.33508 25.2 6.37001 23.5843 7.08749 22.2518L14.9681 7.61633C15.1725 7.23672 15.5689 7 16 7C16.4311 7 16.8275 7.23672 17.0319 7.61633L24.9125 22.2518C25.63 23.5843 24.6649 25.2 23.1516 25.2Z" stroke="black" strokeLinecap="round" /></svg>;
+export default GenericAlarm;

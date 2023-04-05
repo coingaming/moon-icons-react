@@ -1,0 +1,9 @@
+.idea
+.vscode/
+
+build
+lib
+node_modules
+.env
+/tsconfig.json
+scripts/preview

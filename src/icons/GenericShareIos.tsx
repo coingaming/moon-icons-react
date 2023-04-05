@@ -1,0 +1,3 @@
+import React from 'react';
+const GenericShareIos = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M16 17.5V5M16 5L12.6316 8M16 5L19.3684 8M11.8 11.8333H10C8.89543 11.8333 8 12.7288 8 13.8333V24C8 25.1046 8.89543 26 10 26H22C23.1046 26 24 25.1046 24 24V13.8333C24 12.7288 23.1046 11.8333 22 11.8333H20.2" stroke="black" strokeLinecap="round" strokeLinejoin="round" /></svg>;
+export default GenericShareIos;
