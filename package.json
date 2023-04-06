@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-icons-tw",
   "sideEffects": false,
-  "version": "9.27.0",
+  "version": "9.27.1",
   "files": [
     "lib"
   ],
@@ -25,7 +25,7 @@
     "build:js:commonjs": "tsc --project tsconfig.cjs.json",
     "build:js:es": "tsc --project tsconfig.esm.json",
     "build": "pnpm run build:icons && pnpm run build:code && pnpm run build:index",
-    "lint": "eslint --fix src --ext .js,.jsx,.ts,.tsx",
+    "lint": "eslint ./.config/eslint --ext .js,.jsx,.ts,.tsx",
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "devDependencies": {
