@@ -1,3 +1,3 @@
 import React from 'react';
-const ChartDashboard = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M7 25H25M7 15L11.5 11.6667L14.5 13.6667L25 7M7 19.5763L11.5 16.0029L14.5 18.1469L25 11V21H7.00002L7 19.5763Z" stroke="black" strokeLinecap="round" strokeLinejoin="round" /></svg>;
+const ChartDashboard = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M7 25H25M7 15L11.5 11.6667L14.5 13.6667L25 7M7 19.5763L11.5 16.0029L14.5 18.1469L25 11V21H7.00002L7 19.5763Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" /></svg>;
 export default ChartDashboard;

@@ -1,3 +1,3 @@
 import React from 'react';
-const TextClearFormatting = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M17.1429 7.23071L15.2382 12.9398M11.0477 25.4999L12.9524 19.7908M20.1905 21.8462L8 10.1539M8.00004 6.5H24" stroke="black" strokeLinecap="round" strokeLinejoin="round" /></svg>;
+const TextClearFormatting = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M17.1429 7.23071L15.2382 12.9398M11.0477 25.4999L12.9524 19.7908M20.1905 21.8462L8 10.1539M8.00004 6.5H24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" /></svg>;
 export default TextClearFormatting;

@@ -1,3 +1,3 @@
 import React from 'react';
-const DevicesBluetooth = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M15.6316 16L15.6316 25.5L23 20.9659L15.6316 16ZM15.6316 16L15.6316 6.5L23 10.6853L15.6316 16ZM15.6316 16L9 11.0537M15.6316 16L9 20.063" stroke="black" strokeLinecap="round" strokeLinejoin="round" /></svg>;
+const DevicesBluetooth = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M15.6316 16L15.6316 25.5L23 20.9659L15.6316 16ZM15.6316 16L15.6316 6.5L23 10.6853L15.6316 16ZM15.6316 16L9 11.0537M15.6316 16L9 20.063" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" /></svg>;
 export default DevicesBluetooth;
