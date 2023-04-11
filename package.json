@@ -19,7 +19,7 @@
     "publish:post:unmove:lib": "node ./.config/scripts/publish.js --input ./lib/ --output ./ --mode postpublish",
     "publish:post:revert:package": "node ./.config/scripts/updatePackageJson.js --input ./lib/ --package ./package.json --mode postpublish",
     "figma": "node scripts/import/index.js --token $(grep FIGMA_TOKEN .env | cut -d '=' -f2) --fileId $(grep FIGMA_FILE_ID .env | cut -d '=' -f2) --page $npm_config_page  --dir ./svg",
-    "build:icons": "svgr --ext tsx --config-file ./.config/svgr/svgr.config.tw.js -d src/icons svg",
+    "build:icons": "svgr --ext tsx --config-file ./.config/svgr/svgr.config.js -d src/icons svg",
     "build:index": "barrelsby --config ./.config/barrelsby/barrelsby.json --directory src --structure flat --exportDefault",
     "build:code": "pnpm run build:js:es && pnpm run build:js:commonjs",
     "build:js:commonjs": "tsc --project tsconfig.cjs.json",
