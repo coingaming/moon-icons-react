@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-icons-tw",
   "sideEffects": false,
-  "version": "9.28.4",
+  "version": "9.28.5",
   "files": [
     "lib"
   ],
@@ -30,18 +30,19 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "devDependencies": {
-    "@svgr/cli": "4.1.0",
+    "@svgr/cli": "^8.1.0",
     "@svgr/plugin-jsx": "4.1.0",
     "@types/node": "13.13.52",
     "@types/ramda": "0.26.44",
-    "@types/rimraf": "2.0.5",
     "@types/react": "16.9.9",
     "@types/react-dom": "16.9.2",
+    "@types/rimraf": "2.0.5",
     "@typescript-eslint/eslint-plugin": "4.14.0",
     "@typescript-eslint/parser": "4.14.0",
     "argparse": "2.0.1",
     "axios": "0.21.4",
     "barrelsby": "2.2.0",
+    "commander": "4.0.1",
     "eslint": "7.18.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-import": "2.23.2",
@@ -55,10 +56,8 @@
     "ramda": "0.27.1",
     "rimraf": "3.0.2",
     "ts-node-dev": "1.1.8",
-    "typescript": "4.1.4",
-    "commander": "4.0.1"
+    "typescript": "4.1.4"
   },
-  "dependencies": {},
   "peerDependencies": {
     "react": ">= 18.2.0",
     "react-dom": ">= 18.2.0"
