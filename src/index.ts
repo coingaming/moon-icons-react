@@ -886,5 +886,3 @@ export { default as TravelWiFi } from './icons/TravelWiFi';
 export * from './icons/TravelWiFi';
 export { default as TravelYacht } from './icons/TravelYacht';
 export * from './icons/TravelYacht';
-export { default as index } from './icons/index';
-export * from './icons/index';

@@ -5,6 +5,7 @@ module.exports = {
   svgProps: { xmlns: 'http://www.w3.org/2000/svg' },
   replaceAttrValues: { 'black': 'currentColor' },
   template,
+  index: false,
   plugins: ['@svgr/plugin-jsx'],
   jsx: {
     babelConfig: {
