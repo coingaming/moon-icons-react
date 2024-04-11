@@ -886,6 +886,8 @@ export { default as TravelBill } from './icons/TravelBill';
 export * from './icons/TravelBill';
 export { default as TravelBus } from './icons/TravelBus';
 export * from './icons/TravelBus';
+export { default as TravelCoctail } from './icons/TravelCoctail';
+export * from './icons/TravelCoctail';
 export { default as TravelDeskBell } from './icons/TravelDeskBell';
 export * from './icons/TravelDeskBell';
 export { default as TravelHotel } from './icons/TravelHotel';
