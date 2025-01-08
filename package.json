@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-icons-tw",
   "sideEffects": false,
-  "version": "9.29.3",
+  "version": "9.29.4",
   "files": [
     "lib"
   ],
@@ -40,7 +40,7 @@
     "@typescript-eslint/eslint-plugin": "4.14.0",
     "@typescript-eslint/parser": "4.14.0",
     "argparse": "2.0.1",
-    "axios": "0.21.4",
+    "axios": "^1.7.9",
     "barrelsby": "2.2.0",
     "commander": "4.0.1",
     "eslint": "7.18.0",
@@ -49,7 +49,7 @@
     "eslint-plugin-jsx-a11y": "6.1.1",
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-react": "7.11.0",
-    "figma-js": "1.14.0",
+    "figma-js": "^1.16.1-0",
     "figma-transformer": "2.1.0",
     "fs": "0.0.1-security",
     "prettier": "2.3.0",

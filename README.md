@@ -17,7 +17,7 @@ This repository houses **SVG icons** you might need to build an application.
 2. Run to fetch and save SVGs from particular page in Figma (optional):
 
    ```sh
-   npm run figma --page=PageName
+   npm run figma:page
    ```
 
 3. Run:
