@@ -1,3 +1,3 @@
 import React from 'react';
-const SoftwareLogOut = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M11.6154 6.5L21.5 6.5C23.7091 6.5 25.5 8.29086 25.5 10.5L25.5 21.5C25.5 23.7091 23.7091 25.5 21.5 25.5H11.6154M21.1154 16H7.96154M10.8846 11.6154L6.5 16L10.8846 20.3846" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" /></svg>;
+const SoftwareLogOut = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-moon-icons-react="icon" {...props}><path d="M11.6154 6.5L21.5 6.5C23.7091 6.5 25.5 8.29086 25.5 10.5L25.5 21.5C25.5 23.7091 23.7091 25.5 21.5 25.5H11.6154M21.1154 16H7.96154M10.8846 11.6154L6.5 16L10.8846 20.3846" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" /></svg>;
 export default SoftwareLogOut;

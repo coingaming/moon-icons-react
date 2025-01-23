@@ -1,3 +1,3 @@
 import React from 'react';
-const GenericLightningBolt = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M14.6957 18.6746L11.2174 29L25 14.2376H17.1304L20.7826 3L6 18.6746H11.9565" stroke="currentColor" strokeMiterlimit={10} strokeLinecap="round" strokeLinejoin="round" /></svg>;
+const GenericLightningBolt = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-moon-icons-react="icon" {...props}><path d="M14.6957 18.6746L11.2174 29L25 14.2376H17.1304L20.7826 3L6 18.6746H11.9565" stroke="currentColor" strokeMiterlimit={10} strokeLinecap="round" strokeLinejoin="round" /></svg>;
 export default GenericLightningBolt;

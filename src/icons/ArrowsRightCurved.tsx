@@ -1,3 +1,3 @@
 import React from 'react';
-const ArrowsRightCurved = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M21.1154 7L25.5 11.3846L21.1154 15.7692M24.7692 11.3846H13.0769C9.44459 11.3846 6.5 14.3292 6.5 17.9616C6.5 21.5939 9.44459 24.5385 13.0769 24.5385H24.7692" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" /></svg>;
+const ArrowsRightCurved = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-moon-icons-react="icon" {...props}><path d="M21.1154 7L25.5 11.3846L21.1154 15.7692M24.7692 11.3846H13.0769C9.44459 11.3846 6.5 14.3292 6.5 17.9616C6.5 21.5939 9.44459 24.5385 13.0769 24.5385H24.7692" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" /></svg>;
 export default ArrowsRightCurved;
