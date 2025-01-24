@@ -1,3 +1,3 @@
 import React from 'react';
-const ArrowsBottomRightAlternative = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-moon-icons-react="icon" {...props}><path d="M11.2657 11.2712L21.4944 21.5M21.4944 21.5H11.2656M21.4944 21.5L21.4944 11.2712" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" /></svg>;
+const ArrowsBottomRightAlternative = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-moon-icons-react-id="icon" {...props}><path d="M11.2657 11.2712L21.4944 21.5M21.4944 21.5H11.2656M21.4944 21.5L21.4944 11.2712" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" /></svg>;
 export default ArrowsBottomRightAlternative;
