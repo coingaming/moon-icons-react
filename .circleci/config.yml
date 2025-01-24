@@ -137,9 +137,9 @@ jobs:
     <<: *default
     steps:
       - *setup_github_ssh
-      - run: git clone -b master git@github.com:coingaming/$CIRCLE_PROJECT_REPONAME.git .
+      - run: git clone -b main git@github.com:coingaming/$CIRCLE_PROJECT_REPONAME.git .
       - *setup_git_config
-      - run: git branch --set-upstream-to=origin/master master
+      - run: git branch --set-upstream-to=origin/main main
       - run: git pull
       - attach_workspace:
           at: ./
@@ -170,16 +170,14 @@ workflows:
           filters:
             branches:
               only:
-                - develop
-                - master
+                - main
 
       - build:
           context: global
           filters:
             branches:
               only:
-                - develop
-                - master
+                - main
           requires:
             - dependencies
 
@@ -188,8 +186,7 @@ workflows:
           filters:
             branches:
               only:
-                - develop
-                - master
+                - main
           requires:
             - dependencies
             - build
@@ -198,7 +195,7 @@ workflows:
           context: global
           filters:
             branches:
-              only: master
+              only: main
           requires:
             - dependencies
             - build
