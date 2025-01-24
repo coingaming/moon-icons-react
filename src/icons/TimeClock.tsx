@@ -1,3 +1,3 @@
 import React from 'react';
-const TimeClock = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-moon-icons-react="icon" {...props}><path d="M16 10.1538V16.7307L20.3846 20.3846M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" /></svg>;
+const TimeClock = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-moon-icons-react-id="icon" {...props}><path d="M16 10.1538V16.7307L20.3846 20.3846M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" /></svg>;
 export default TimeClock;
