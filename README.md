@@ -2,36 +2,43 @@
 
 [![npm (scoped)](https://img.shields.io/npm/v/@heathmont/moon-icons-tw)](https://www.npmjs.com/package/@heathmont/moon-icons-tw)
 
-## Introduction
+This repository houses **SVG icons** you might need to build your application using the Moon Design System.
 
-This repository houses **SVG icons** you might need to build your application.
+## Setup
 
-## Installing
+1. Clone this repository:
 
-0. Set proper environment variables:
+   ```bash
+   git clone https://github.com/heathmont/moon-icons-react.git
+   cd moon-icons-react
+   ```
 
-   `FIGMA_TOKEN` - Personal Figma access tokens with file content read-only activated.
-   `FIGMA_FILE_ID` - The Figma file ID is the string of random alphanumeric characters found in the section of the URL after \_figma.com/file/\*.
+2. Create an `.env` file in the root directory with the following variables:
 
-1. Install dependencies and link local packages together:
+   `FIGMA_TOKEN` - Personal Figma access tokens with file content read-only permissions.<br />
+   `FIGMA_FILE_ID` - The string of random alphanumeric characters found in your Figma URL after figma.com/file/.
+
+## Build
+
+1. Install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Fetch and save SVGs from particular page in Figma:
+2. Fetch SVGs from a specific page in Figma:
 
    ```bash
    npm run figma:page
    ```
 
-3. Generate `tsx` icon files out of the fetched SVGs:
+3. Generate React components from the fetched SVGs:
 
    ```bash
    npm run build
    ```
 
-## Releasing
+## Release
 
 1. Manually update `version` in `package.json` file to the next patch version.
 
@@ -41,16 +48,33 @@ This repository houses **SVG icons** you might need to build your application.
    npm install
    ```
 
-3. Create a semantic PR into a `main` branch.
+3. Create a semantic PR into the `main` branch.
 
-New version of npm package `@heathmont/moon-icons-tw` will be automatically published in approximately 5 minutes, when your changes will be merged to the `main` branch.
+A version of the npm package `@heathmont/moon-icons-tw` will be automatically published in approximately 5 minutes after your changes are merged to the `main` branch.
 
-## Consuming
+## Usage
+
+1. Install the icons' package in your project
 
 ```bash
-pnpm install --save @heathmont/moon-icons-tw
+pnpm install @heathmont/moon-icons-tw
+# or
+npm install @heathmont/moon-icons-tw
+# or
+yarn @heathmont/moon-icons-tw
 ```
 
+2. Import and use an icon in your application. Add an optional `className` for modifying size and color of the icon.
+
 ```tsx
-import { ArrowsRight, ControlsPlus } from "@heathmont/moon-icons-tw";
+import { OtherFrame } from "@heathmont/moon-icons-tw";
+
+const MyComponent = () => (
+  <>
+    // with Moon text sizes and colors
+    <OtherFrame className="text-moon-20 text-chichi" />
+    // or with Tailwind text sizes and colors
+    <OtherFrame className="text-xl text-red-500" />
+  </>
+);
 ```
