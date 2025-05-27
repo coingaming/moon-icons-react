@@ -4,31 +4,46 @@
 
 ## Introduction
 
-This repository houses **SVG icons** you might need to build an application.
+This repository houses **SVG icons** you might need to build your application.
 
 ## Installing
 
+0. Set proper environment variables:
+
+   `FIGMA_TOKEN` - Personal Figma access tokens with file content read-only activated.
+   `FIGMA_FILE_ID` - The Figma file ID is the string of random alphanumeric characters found in the section of the URL after \_figma.com/file/\*.
+
 1. Install dependencies and link local packages together:
 
-   ```sh
+   ```bash
    npm install
    ```
 
-2. Run to fetch and save SVGs from particular page in Figma (optional):
+2. Fetch and save SVGs from particular page in Figma:
 
-   ```sh
+   ```bash
    npm run figma:page
    ```
 
-3. Run:
+3. Generate `tsx` icon files out of the fetched SVGs:
 
-   ```sh
+   ```bash
    npm run build
    ```
 
-   **Note:** To update the icons directly from Figma, please set the proper environment variables:<br />
-   FIGMA_TOKEN - Personal access tokens allow you to access your own data via the Figma API.<br />
-   FIGMA_FILE_ID - The file ID is the string of random alphanumeric characters found in the section of the URL after _figma.com/file/_.
+## Releasing
+
+1. Manually update `version` in `package.json` file to the next patch version.
+
+2. Install updated dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Create a semantic PR into a `main` branch.
+
+New version of npm package `@heathmont/moon-icons-tw` will be automatically published in approximately 5 minutes, when your changes will be merged to the `main` branch.
 
 ## Consuming
 
@@ -36,11 +51,6 @@ This repository houses **SVG icons** you might need to build an application.
 pnpm install --save @heathmont/moon-icons-tw
 ```
 
-```javascript
+```tsx
 import { ArrowsRight, ControlsPlus } from "@heathmont/moon-icons-tw";
 ```
-
-## Release notes
-
-**Please, don't forget manually update the release version in package.json to the new one. <br />**
-New version of npm package @heathmont/moon-icons-tw will be automatically published when changes will be merged to the master branch.
